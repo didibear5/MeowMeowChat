@@ -50,6 +50,7 @@ body {
 	color: white;
 	border-radius: 0px 0px 10px 10px;
 	border-top: 1.5px solid #868686;
+	padding-top: 6px;
 	min-width: 350px;
 	/*overflow-y: scroll;*/
 }
@@ -79,26 +80,22 @@ body {
 }
 .chat-input, .chat-input:focus{
 	padding: 6px 8px;
-	margin: 5px 0px 5px 0px;
 	color: #fff;
 	background-color: #313131;
 	border: 0px;
-	width: 80%;
 }
 .chat-submit, .chat-submit:hover, .chat-submit:focus{
 	color: #6da5d7;
 	background-color: #313131;
-	margin-top: 10px;
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
-	float: right;
 }
 .chat-submit:active{
 	color: #313131;
 	background-color: #313131;
-	margin-top: 10px;
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
+}
 }
