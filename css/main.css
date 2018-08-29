@@ -83,6 +83,7 @@ body {
 	color: #fff;
 	background-color: #313131;
 	border: 0px;
+	box-shadow:none;
 }
 .chat-submit, .chat-submit:hover, .chat-submit:focus{
 	color: #6da5d7;
@@ -90,6 +91,7 @@ body {
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
+	box-shadow:none;
 }
 .chat-submit:active{
 	color: #313131;
@@ -97,4 +99,5 @@ body {
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
+	box-shadow:none;
 }
