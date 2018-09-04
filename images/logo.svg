@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="441.987px" height="441.985px" viewBox="0 0 441.987 441.985" enable-background="new 0 0 441.987 441.985"
+	 xml:space="preserve">
+<g id="圖層_1">
+	<circle fill="#040000" cx="220.993" cy="220.993" r="220.993"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M295.964,81.151c-7.143-4.233-27.641,35.068-30.189,35.537
+		c-2.551,0.468-28.832-2.633-44.781-2.633c-15.948,0-42.229,3.101-44.78,2.633c-2.55-0.468-23.047-39.77-30.189-35.537
+		C100.714,108.01,42.548,178.152,47.016,242.15c4.93,70.614,77.893,100.94,173.979,100.94c96.085,0,169.048-30.327,173.978-100.94
+		C399.441,178.152,341.275,108.01,295.964,81.151z"/>
+	<path fill="#040000" d="M234.728,216.355c0,2.426-6.149,5.435-13.733,5.435s-13.733-3.009-13.733-5.435
+		c0-2.427,6.148-4.394,13.733-4.394S234.728,213.929,234.728,216.355z"/>
+	<circle fill="#040000" cx="139.317" cy="216.42" r="11.269"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M220.995,363.077"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M220.995,99.132"/>
+	<path d="M220.999,274.499c-34.72,0-29.62-24.59-29.62-24.59c6.67,0.05,12.91-2.01,15.88-3.91c11.19-7.15,13.74-14.54,13.74-25.25
+		c0,10.71,2.54,18.1,13.729,25.25c2.98,1.9,9.21,3.96,15.88,3.91C250.608,249.909,255.718,274.499,220.999,274.499z"/>
+	<g>
+		<path stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M191.378,249.909
+			c-6.14-0.05-12.66-1.88-17.33-7.27"/>
+		<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M207.258,245.999
+			c11.19-7.15,13.74-14.54,13.74-25.25"/>
+		<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M191.378,249.909
+			c6.67,0.05,12.91-2.01,15.88-3.91"/>
+	</g>
+	<g>
+		<path stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M267.944,242.64
+			c-4.67,5.39-11.19,7.22-17.33,7.27"/>
+		<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M234.734,245.999
+			c-11.19-7.15-13.74-14.54-13.74-25.25"/>
+		<path fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M250.614,249.909
+			c-6.67,0.05-12.91-2.01-15.88-3.91"/>
+	</g>
+	<circle fill="#040000" cx="302.672" cy="216.421" r="11.269"/>
+</g>
+<g id="圖層_2" display="none">
+	<line display="inline" fill="none" stroke="#000000" stroke-miterlimit="10" x1="220.995" y1="98.632" x2="220.995" y2="362.577"/>
+</g>
+</svg>
