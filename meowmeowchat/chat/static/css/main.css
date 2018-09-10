@@ -3,6 +3,109 @@ body {
 	background-color: black;
 }
 
+/*Button*/
+button:focus {
+	outline: none;
+}
+button > p {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0px;
+	position: relative;
+	z-index: 1;
+}
+
+/*Hide*/
+.hide{
+	display:none;
+}
+
+/*Signup-form*/
+.signup{
+	margin-top: 80px;
+}
+.signup-logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 80%;
+}
+.signup-form{
+	text-align: center;
+	/*min-width: 350px;*/
+	background-color: white;
+	border-radius: 15px;
+	padding: 20px 0px;
+}
+.signup-button-group{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.signup-separate{
+	margin-top: 10px;
+}
+.signup-button{
+	width: 100%;
+	height: 50px;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	border-radius: 40px;
+	cursor: pointer;
+	color: black;
+	background: black;
+	border: 0px;
+	transition:0.3s;
+	position: relative;
+	overflow:hidden;
+}
+
+.signup-button:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: gray;
+	position: absolute;
+	transition: 0.3s;
+}
+
+.swipe:before{
+	top: 0;
+	left: -100%;
+}
+.swipe:hover:before,.swipe:active:before,.swipe:focus:before{
+	left: 0;
+}
+
+.signup-input, .signup-input:focus{
+	font-size: 20px;
+	padding: 10px 15px;
+	margin: 5px 0px 5px 0px;
+	border: 1px solid gray;
+	outline: none;
+	width: 100%;
+	border-radius: 40px;
+}
+.error-msg{
+	text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #c83232;
+}
+.blank-error, .blank-error:focus{
+	border: 1px solid #ca3131;
+    box-shadow: 0px 0px 12px 0px #ca3131;
+}
+.input-button{
+	width: 30%;
+	height: 41.6px;
+	margin: 25px 5px 20.4px 5px;
+	padding: 0px;
+}
+.btn-create{
+	margin-top: 50px;
+}
+
 /*Navbar*/
 .navbar-default {
 	background-color: white;
@@ -22,6 +125,9 @@ body {
 	right: 0;
 	left: 0;
 	z-index: 1030;
+}
+.nav-logo{
+	height: 40px;
 }
 
 /*Chatroom*/
@@ -100,4 +206,21 @@ body {
 	text-decoration: none;
 	border-style: none;
 	box-shadow:none;
+}
+
+/*Chatrom Color*/
+.cbg-red{
+	background-color: #c26656;
+}
+.cbg-yellow{
+	background-color: #c2b941;
+}
+.cbg-green{
+	background-color: #84ba78;
+}
+.cbg-blue{
+	background-color: #6da5d7;
+}
+.cbg-purple{
+	background-color: #a75d97;
 }
