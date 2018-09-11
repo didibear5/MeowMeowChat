@@ -1,0 +1,5 @@
+#忽略ps、ai檔
+*.psd
+*.ai
+#忽略pyc檔
+*.pyc
