@@ -15,10 +15,14 @@ You have to install python3 and docker first.
 Run the following command:
 ```
 pip3 install -r requirements.txt
-docker run -p 6379:6379 -d redis:2.8
 ```
 
 ### Run Server
+
+Run the following command:
+```
+docker run -p 6379:6379 -d redis:2.8
+```
 In meowmeowchat/
 ```
 python3 manage.py runserver
