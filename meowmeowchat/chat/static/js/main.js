@@ -10,7 +10,7 @@ $(function(){
         if(is_other){
             var data = JSON.parse(e.data);
             var message = data['message'];
-            $('li:last').after('<li class="chat left">' +　message + '</li>');
+            $('.chats').append('<li class="chat left">' +　message + '</li>');
             y = elmnt.scrollHeight;
             $('div.chatroom-body').scrollTop(y);
         }
@@ -29,7 +29,7 @@ $(function(){
 		e.preventDefault();
 		var newText = $textInput.val();
 		if(newText != ''){
-			$('li:last').after('<li class="chat right">' +　newText + '</li>');
+			$('.chats').append('<li class="chat right">' +　newText + '</li>');
 			$textInput.val('');
 			let y = elmnt.scrollHeight;
 			$('div.chatroom-body').scrollTop(y);
