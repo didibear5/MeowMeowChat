@@ -14,15 +14,15 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-title"><img src="{% static "images/logo.png" %}"> Meow Meow Chat</a></li>
+                <li class="nav-item"><a href="#" class="nav-title"><img src="{% static "images/logo.svg" %}" class="nav-logo"> Meow Meow Chat</a></li>
 			</ul>
 		</div>
 	</nav>
 	<div class="chatroom">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="chatroom-head" style="height: 40px;">
+			<div class="row justify-content-center">
+				<div class="col-md-8 col-lg-6">
+					<div class="chatroom-head" style="height: 50px;">
 						<p class="chatroom-name">MiMeow</p>
 					</div>
 					
@@ -30,26 +30,23 @@
 						<ul class="chats">
 							<li class="chat right">meow~</li>
 							<li class="chat left">0__0</li>
-							<li class="chat right">^____<</li>
-							<li class="chat left">Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam, nulla vitae est bibendum molestie elit risus.</li>
-							<li class="chat right">Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam, nulla vitae est bibendum molestie elit risus.</li>
-							<li class="chat left">Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam, nulla vitae est bibendum molestie elit risus.</li>
-							<li class="chat right">XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</li>
-							<li class="chat left">XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</li>
 						</ul>
 					</div>
-					<div class="chatroom-submit" style="height: 50px;">
+					<div class="chatroom-submit" style="height: 60px;">
 						<form class="input container" action="">
 							<div class="input-group mb-3">
 								<input type="text" class="chat-input form-control" placeholder="say something...">
 								<div class="input-group-append">
+									<div class="tooltips">
+										<input id="base" type="color" name="base" value="#8da5c7"><span class="tooltiptext">Change color</span>
+									</div>
 									<button class="btn chat-submit" type="submit">Submit</button>
 								</div>
 							</div>
 						</form>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 hide">
 					<div style="height: 160px; background-color: #313131; color: white; margin-top: 88px;border-radius: 10px 10px 10px 10px;" class="d-none d-md-block">
 						<p class="container">put something here</p>
 					</div>

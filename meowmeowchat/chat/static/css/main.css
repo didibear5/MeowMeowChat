@@ -1,3 +1,7 @@
+:root{
+	--theme-color:#8da5c7;
+}
+
 /*Body*/
 body {
 	background-color: black;
@@ -46,7 +50,7 @@ button > p {
 	margin-top: 10px;
 }
 .signup-button{
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	margin: 5px 0px;
 	padding: 5px 0px;
@@ -79,22 +83,22 @@ button > p {
 
 .signup-input, .signup-input:focus{
 	font-size: 20px;
-	padding: 10px 15px;
-	margin: 5px 0px 5px 0px;
+	padding: 6px 14px;
+	margin: 22.4px 0px 17px 0px;
 	border: 1px solid gray;
 	outline: none;
-	width: 100%;
-	border-radius: 40px;
+	width: 90%;
+	border-radius: 20px;
 }
 .error-msg{
 	text-align: left;
-    padding-left: 10px;
-    font-size: 14px;
-    color: #c83232;
+	padding-left: 35px;
+	font-size: 14px;
+	color: #c83232;
 }
 .blank-error, .blank-error:focus{
 	border: 1px solid #ca3131;
-    box-shadow: 0px 0px 12px 0px #ca3131;
+	box-shadow: 0px 0px 12px 0px #ca3131;
 }
 .input-button{
 	width: 30%;
@@ -107,8 +111,12 @@ button > p {
 }
 
 /*Navbar*/
+.navbar{
+	padding: 1.5em;
+}
 .navbar-default {
-	background-color: white;
+	background-color: black;
+	border-bottom: 2px solid white;
 	max-height: 52.8px;
 }
 .nav-title, .nav-title:hover{
@@ -116,7 +124,7 @@ button > p {
 	font-size: 2rem;
 	margin-bottom: .5rem;
 	line-height: 1.2;
-	color: inherit;
+	color: white;
 	text-decoration: none;
 
 }
@@ -132,29 +140,29 @@ button > p {
 
 /*Chatroom*/
 .chatroom-head{
-	background-color: #6da5d7;
+	background-color: var(--theme-color);
 	margin-top: 88px;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
 	min-width: 350px;
 }
 .chatroom-name{
-	font-family:;
 	color: white;
-	font-size: 20px;
-	padding-top: 5px;
+	font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
 	text-align: center;
 }
 .chatroom-body{
-	background-color: #313131;
+	background-color: #474747;
 	color: white;
 	/*overflow-y: scroll;*/
 	overflow: auto;
 	min-width: 350px;
 }
 .chatroom-submit{
-	background-color: #313131;
+	background-color: #474747;
 	color: white;
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 15px 15px;
 	border-top: 1.5px solid #868686;
 	padding-top: 6px;
 	min-width: 350px;
@@ -166,7 +174,7 @@ button > p {
 .chat{
 	position: relative;
 	padding: 5px 13px;
-	border-radius: 16px;
+	border-radius: 18px;
 	list-style: none;
 	clear: both;
 	margin: 10px -20px;
@@ -175,52 +183,92 @@ button > p {
 	white-space: pre-wrap;
 }
 .left{
-	background: #4f4f4f;
+	border: 1px solid white;
 	float: left;
 	margin-right: 15px;
 }
 .right{
-	background: #6da5d7;
+	background: var(--theme-color);
 	float: right;
 	margin-right: 15px;
 }
 .chat-input, .chat-input:focus{
 	padding: 6px 8px;
 	color: #fff;
-	background-color: #313131;
+	background-color: #474747;
 	border: 0px;
 	box-shadow:none;
 }
 .chat-submit, .chat-submit:hover, .chat-submit:focus{
 	color: #6da5d7;
-	background-color: #313131;
+	background-color: #474747;
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
 	box-shadow:none;
 }
 .chat-submit:active{
-	color: #313131;
-	background-color: #313131;
+	color: #474747;
+	background-color: #474747;
 	-webkit-appearance: none;
 	text-decoration: none;
 	border-style: none;
 	box-shadow:none;
 }
 
-/*Chatrom Color*/
-.cbg-red{
-	background-color: #c26656;
+/*Change color*/
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 17px;
+	height: 17px;
+	border-radius: 20px;
+	overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	background-color: var(--theme-color);
+	margin-top: 13px;
+	margin-left: 5px;
 }
-.cbg-yellow{
-	background-color: #c2b941;
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+
 }
-.cbg-green{
-	background-color: #84ba78;
+input[type="color"]::-webkit-color-swatch {
+	border: none;
 }
-.cbg-blue{
-	background-color: #6da5d7;
+
+/*Tooltip*/
+.tooltips {
+	position: relative;
 }
-.cbg-purple{
-	background-color: #a75d97;
+
+.tooltips .tooltiptext {
+	visibility: hidden;
+	width: 135px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 3px;
+	position: absolute;
+	z-index: 1;
+	bottom: 110%;
+	left: 60%;
+	margin-left: -60px;
+}
+
+.tooltips .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.tooltips:hover .tooltiptext {
+	visibility: visible;
 }
