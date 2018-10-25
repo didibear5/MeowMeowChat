@@ -46,11 +46,13 @@ $(function(){
     });
 
      //change chatroom height
-    $(window).on('load resize ', function(){
-        var windowHeight =  window.innerHeight;
+     function changeChatroomHeight(){
+        let windowHeight =  window.innerHeight;
         $('.chatroom-body').css( "height", function(){
-            return windowHeight - 170;
+            return windowHeight - 220;
         });
-    });
+    }
+    changeChatroomHeight();
+    window.addEventListener('resize', changeChatroomHeight, false);
 });
 
